@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    # syntax compatibility with mysql
+    url: jdbc:hsqldb:mem:authdb;sql.syntax_mys=true
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update # apply new changes to entities
