@@ -1,6 +1,6 @@
 package com.ntros.chatter.auth
 
-import com.ntros.chatter.dto.UserDTO
+import com.ntros.chatter.model.UserDTO
 
 interface AuthService {
 

@@ -1,7 +1,7 @@
 package com.ntros.chatter.controller;
 
 import com.ntros.chatter.auth.AuthService
-import com.ntros.chatter.dto.UserDTO
+import com.ntros.chatter.model.UserDTO
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
